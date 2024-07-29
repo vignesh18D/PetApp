@@ -1,0 +1,71 @@
+.single-pet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #9f9e9eb8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 40px;
+}
+
+.pet-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    /* Center images */
+}
+
+.pet-images img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.single-image {
+    margin: 0 auto;
+    /* Center single image */
+}
+
+.pet-details-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #e9e7e7;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.pet-details-box p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.pet-details-box strong {
+    font-weight: bold;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    margin-top: 150px;
+    font-weight: 400;
+}
+
+.change p {
+    font-size: 20px;
+}
+
+.error {
+    color: #d9534f;
+}
